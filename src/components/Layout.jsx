@@ -24,15 +24,14 @@ export default class Layout extends React.Component {
                     </Navbar.Collapse>
                 </Navbar>
 
-                <div className="app-content">
+                <div className="app-content bg">
                     {this.props.children}
                 </div>
 
                 <Navbar fixedBottom>
                     <Nav>
                         <NavItem>
-                            This is an web application created with <strong>React</strong> 
-                            and <strong>Express</strong> by Nick Liu.
+                            This is an web application created with <strong>React</strong> and <strong>Express</strong> by Nick Liu.
                         </NavItem>
                     </Nav>
                 </Navbar>

@@ -1,12 +1,12 @@
 // src/routes.js
 import React from 'react'
 import { Route, IndexRoute } from 'react-router'
-import Layout from './components/Layout';
-import IndexPage from './components/IndexPage';
-import RecipesPage from './components/RecipesPage';
-import JourneyPage from './components/JourneyPage';
-import AboutMePage from './components/AboutMePage';
-import NotFoundPage from './components/NotFoundPage';
+import Layout from './components/Layout.jsx';
+import IndexPage from './components/IndexPage.jsx';
+import RecipesPage from './components/RecipesPage.jsx';
+import JourneyPage from './components/JourneyPage.jsx';
+import AboutMePage from './components/AboutMePage.jsx';
+import NotFoundPage from './components/NotFoundPage.jsx';
 
 const routes = (
   <Route path="/" component={Layout}>
